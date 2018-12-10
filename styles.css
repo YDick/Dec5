@@ -57,6 +57,14 @@ a:visited {
     color:green;
 }
 
-a.codedev:hover {
+a[title="CodeDev"]:hover {
     text-decoration: none;
+}
+
+ul>li>a:hover {
+    background-color: yellow;
+}
+
+ul>li>a:active {
+    background-color: red;
 }
