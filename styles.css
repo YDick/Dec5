@@ -1,2 +1,54 @@
-/* Move your styles here when you're ready to clean up your HTML file */
-/* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+html {
+    font-size: 16px;
+}
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2 {
+    font-family: Times, 'Times New Roman', serif;
+}
+header {
+    border: 5px solid red;
+}
+
+.class-list {
+    list-style-type: square
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.even {
+    background-color: gray;
+}
+
+.odd {
+    background-color: black;
+    color: white;
+}
+
+#item1 {
+    font-size: 30px;
+}
+
+#item2{
+    text-align: right;
+}
+
+ol li {
+    padding: 5px;
+    background-color: grey;
+}
+
+a:link {
+    color: orange;
+}
+a:visited {
+    color:green;
+}
+
+a:hover {
+    text-decoration: none;
+}
